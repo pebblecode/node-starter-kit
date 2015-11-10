@@ -1,10 +1,10 @@
 {
-  "name": "camelcase-keys-recursive",
+  "name": "node-starter-kit",
   "version": "0.5.0",
-  "description": "Adaptation of camelcase-keys but recursive. ",
+  "description": "A simple node starter kit ",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikeljames/camelcase-keys-recursive.git"
+    "url": "git://github.com/pebblecode/node-starter-kit.git"
   },
   "main": "src/index.js",
   "scripts": {
@@ -16,21 +16,14 @@
     "prepublish": "npm run compile"
   },
   "keywords": [
-    "camelcase",
-    "keys",
-    "object",
-    "recursive",
-    "camelcase-keys",
-    "snake-case"
   ],
   "author": {
-    "name": "Mike James",
-    "email": "m@mikejam.es",
-    "url": "http://mikejam.es"
+    "name": "PebbleCode",
+    "email": "opensource@pebblecode.com",
+    "url": "http://pebblecode.com"
   },
   "license": "MIT",
   "dependencies": {
-    "map-obj": "^1.0.0"
   },
   "devDependencies": {
     "babel": "^5.x.x",

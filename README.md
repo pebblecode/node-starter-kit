@@ -1,27 +1,18 @@
-[![npm version](https://badge.fury.io/js/camelcase-keys-recursive.svg)](http://badge.fury.io/js/camelcase-keys-recursive)
+To begin with on init commit replace with find and replace. 
 
-[![Build Status](https://travis-ci.org/mikeljames/camelcase-keys-recursive.svg)](https://travis-ci.org/mikeljames/camelcase-keys-recursive)
+PROJECT_NAME = Your Project Name
 
-### Simple usage: 
+[![npm version](https://badge.fury.io/js/PROJECT_NAME.svg)](http://badge.fury.io/js/PROJECT_NAME)
 
-	var camelGotHumps = camelCaseRecursive({'test-1':123, 'test-2':{'test-3:':{'test-four':132}}});
+[![Build Status](https://travis-ci.org/pebblecode/PROJECT_NAME.svg)](https://travis-ci.org/pebblecode/PROJECT_NAME)
 
-	//{ test1: 123, test2: { 'test3:': { testFour: 132 } } }
-	console.log(camelGotHumps);
+[![Build Status](https://travis-ci.org/pebblecode/PROJECT_NAME.svg)](https://travis-ci.org/pebblecode/PROJECT_NAME)
 
-### Works with Arrays too:
+## NPM Commands
+Test `npm run test` or `npm run test:watch`
+Lint `npm run lint`
+Coverage `npm run coverage`
+Babel Transpile `npm run compile`
 
-	var anotherCamelWithTheHump = camelCaseRecursive({
-		'test-1': 123,
-		'test-Two': [{
-			'test-three': {
-				'test-FOUR': [{'test-five':[{testSix:{'test-seven':8}}]}]
-			}
-		}]
-	});
+### Project Description
 
-	//{"test1":123,"testTwo":[{"testThree":{"testFOUR":[{"testFive":[{"testSix":{"testSeven":8}}]}]}}]}console.log(
-	JSON.stringify(anotherCamelWithTheHump));
-
-### More information on internal modules
-[map-obj](https://www.npmjs.com/package/map-obj)
