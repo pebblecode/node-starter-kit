@@ -35,5 +35,9 @@
     "istanbul": "^0.4.0",
     "mocha": "^2.2.1",
     "pre-commit": "^1.0.6"
+  },
+  "engines":{
+    "node":"4.x.x",
+    "npm": "2.x.x"
   }
 }
