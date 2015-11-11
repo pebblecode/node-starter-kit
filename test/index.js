@@ -1,6 +1,5 @@
 import {expect} from 'chai';
-
-const myLibrary = require('../');
+import myLibrary from '../';
 
 describe('Example Test', () => {
   it('Should return true', () => {
